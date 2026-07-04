@@ -133,7 +133,7 @@ keys = [
     
 ##Misc keybinds
     Key([], "Print", lazy.spawn("flameshot gui"), desc='Screenshot'),
-    Key(["control"], "Print", lazy.spawn("flameshot full -c -p ~/Pictures/"), desc='Screenshot'),
+    Key(["control"], "Print", lazy.spawn("flameshot full -c -p ~/Pictures/Screenshots/"), desc='Screenshot'),
     Key([mod], "e", lazy.spawn(filemanager), desc="Open file manager"),
     Key([mod], "s",toggle_sticky_windows(), desc="Toggle state of sticky for current window"),
 ]   
@@ -273,7 +273,7 @@ screens = [
                 ),
 
                 widget.Spacer(
-                    length = 10,
+                    length = 5,
                 ),
                 widget.CurrentLayout(
                     mode="icon",
@@ -282,7 +282,7 @@ screens = [
                 ),
 
                 widget.Spacer(
-                    length = 10,
+                    length = 5,
                 ),
 
                 widget.Image(
@@ -422,7 +422,7 @@ screens = [
                     fontsize = 15,
                 ),
             ],
-            35,  # Bar size (all axis)
+            30,  # Bar size (all axis)
             background = "#626880",
             margin = [10,100,5,100] # Bar margin (Top,Right,Bottom,Left)
         ),

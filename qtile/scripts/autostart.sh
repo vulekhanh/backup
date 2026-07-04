@@ -5,4 +5,3 @@ picom --daemon --config $HOME/.config/qtile/scripts/picom.conf &
 /usr/bin/wired &
 eval $(gnome-keyring-daemon --start) 
 nm-applet &
-blueman-applet &
