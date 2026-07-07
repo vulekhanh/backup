@@ -1,0 +1,7 @@
+require("config.keymaps")
+require("config.lazy")
+require("config.options")
+require("config.colorscheme")
+require("config.nvimtree")
+require("config.bufferline")
+require("config.lualine")
