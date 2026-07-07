@@ -421,6 +421,7 @@ screens = [
                     background = "#8caaee",
                     fontsize = 15,
                 ),
+
             ],
             30,  # Bar size (all axis)
             background = "#626880",
